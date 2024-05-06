@@ -9,23 +9,14 @@ import { Call, useStreamVideoClient } from '@stream-io/video-react-sdk'
 import { useToast } from "@/components/ui/use-toast"
 
 import { Textarea } from "@/components/ui/textarea"
-import { cn } from '@/lib/utils'
-import { Button } from './ui/button'
 
-
-import {Popover,PopoverContent,PopoverTrigger} from "@/components/ui/popover"
-import { format } from "date-fns"
-import { Calendar as CalendarIcon } from "lucide-react"
-import { Calendar } from "@/components/ui/calendar"
-
-import { DateTimePicker } from "@/components/ui/date-time-picker/date-time-picker";
 import ReactDatePicker from 'react-datepicker'
 import { Input } from './ui/input'
 
 
 
 
-const meetingTypeList = () => {
+const MeetingTypeList = () => {
    
   
 
@@ -180,4 +171,4 @@ const meetingTypeList = () => {
   )
 }
 
-export default meetingTypeList
+export default MeetingTypeList
