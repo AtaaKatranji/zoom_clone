@@ -92,7 +92,7 @@ const MeetingTypeList = () => {
         img="/icons/join-meeting.svg"
         title="Join Meeting"
         description="via invition link"
-        handleClick={()=> router.push("/recordings")}
+        handleClick={()=> setmeetingState('isJoiningMeeting')}
         className="bg-yellow-1"/>
       
       {!callDetails ?
